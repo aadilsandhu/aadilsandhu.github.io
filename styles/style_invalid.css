@@ -2,6 +2,19 @@ body{
 	background-color:   #fdedec;
 }
 
+h2{
+	font-size: 3em;
+	background-color: #c0392b;
+	color: #fdedec;
+ 	
+	 
+}
+
+h3{
+	font-size: 2em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 .container{
 	text-align: center;
 	margin: auto;
