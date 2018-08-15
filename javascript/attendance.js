@@ -70,13 +70,13 @@ window.onload = function (){
 
 	    if (normalString == decodedString){
 
-	    	alert(dateOfAttendance);
+	    	//alert(dateOfAttendance);
 
 	    	var d = new Date();
 
 			var dateToday = getDate2Digit(d.getDate()) + getMonthName(d.getMonth()) +  d.getFullYear() + ", " + getDayName(d.getDay() + 1) ;
 
-	    	alert(dateToday);
+	    	//alert(dateToday);
 
 	    	if(dateOfAttendance == dateToday)
 	    		validateStatus = 1;
@@ -169,9 +169,9 @@ function validateAttendance(eString, qCode){
 			index1++;
 		}
 	
-	alert(dString);
+	//alert(dString);
 	var eSIdName = employeesList[parseInt(dString.substring(0, 6))];
-	alert(eSIdName);
+	//alert(eSIdName);
 	//Initialize Name of Employee
 	nameOfEmployee = eSIdName.substring(eSIdName.indexOf('(') + 1, eSIdName.indexOf(')')) + " (" + eSIdName.substring(0, eSIdName.indexOf('(')) + ")";
 
