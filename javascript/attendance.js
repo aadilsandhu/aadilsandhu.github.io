@@ -150,7 +150,7 @@ function validateAttendance(eString, qCode){
 	
 	var decoder = [['+', 'w', 's', 'c', 'u', 'o', '-', 'n', 'y', 'v'], ['-', 'd', 't', 'v', 'n', '+', 'a', 'q', 'o', 'g'], ['p', 'i', 'r', 'q', 'e', 'w', 'x', '+', 's', '-'], ['d', 'g', '+', 't', '-', 'y', 'z', 'e', 'i', 'j'], ['j', 'q', 'f', 'x', 'b', 't', 'w', 'p', '+', 'r'], ['l', 'b', '-', 'j', 'r', 's', '+', 'c', 'a', 't'], ['v', 'e', 'y', 'g', 'k', 'j', 'm', '-', 'f', 'u'], ['z', 'o', 'w', '-', '+', 'd', 'p', 'b', 'e', 'f'], ['c', 'k', 'n', 'h', 'f', '-', 'o', 't', 'q', '+'], ['q', 'm', 'd', '+', 'a', 'x', 'l', 'k', '-', 'e']];
 
-	alert("eString: " + eString);
+	//alert("eString: " + eString);
 	var ij = parseInt(qCode.charAt(0))
 	//alert("qCode: " + decoder[0][ij]);
 
