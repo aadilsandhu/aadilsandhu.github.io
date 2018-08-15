@@ -92,7 +92,7 @@ window.onload = function (){
 	    	var link = document.createElement('link');
 	    	link.rel = 'stylesheet';
 	    	link.type = 'text/css';
-	    	validateStatus? link.href = 'style_valid.css': link.href = 'style_almost_invalid.css';
+	    	validateStatus? link.href = 'styles/style_valid.css': link.href = 'styles/style_almost_invalid.css';
 
 	    	hBody.appendChild(link);
 
@@ -128,7 +128,7 @@ window.onload = function (){
 	    	var link = document.createElement('link');
 	    	link.rel = 'stylesheet';
 	    	link.type = 'text/css';
-	    	link.href = 'style_invalid.css';
+	    	link.href = 'styles/style_invalid.css';
 
 	    	hBody.appendChild(link);
 
