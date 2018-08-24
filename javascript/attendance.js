@@ -4,7 +4,10 @@ var qString = location.search;
 qString = qString.substring(1, qString.length);
 
 //Define List of Employees in Array
-var employeesList = ['10061534(M Jawad Khan)', '10146865(Adil Mahmood)', '69440(Zubair Abbas)', '69410(Muhammad Mansoor)', '69409(Abu Bakar Siddique)', '69412(Kumayal Hussain)', '74806(Aftab Paul)', '68655(Shahid Javed)', '68629(Raheel Ahmed)', '70103(Mazhar Mahmood)', '68609(Asif Ghafar)', '68633(Muhammad Farooq Arshad)', '68808(Khuram Javed)', '68651(Ali Kazim Subhani)', '68812(Raqib Irshad)', '68403(Omar Javaid Sheikh)', '70509(Zamurad Khan)', '10196300(Hannan Tariq)', '69639(Asim Fareed)', '69594(Faisal Naeem)', '68613(Adnan Arif)', '88641(Haider Yaseen)', '89595(Javed Iqbal)', '10217862(Muhammad Umer Manzoor)', '101258(Muhammad Atif Tasneem)', 'ZTE1259(Irfan Tahir)', 'ZTE1269(Muhammad Haseeb Khalid)', 'ZTE1291(Muddasar Ahmed)', 'ZTE1255(Muhammad Sumair Mohsin)', 'ZTE1267(Zeeshan Alam)', 'ZTE1300(Muhammad Haroon Malik)', 'ZTE1278(Arslan Shahid)', 'ZTE1303(Muhammad Fahad Zafar)', 'ZTE1252(Arsalan Hafeez)', 'ZTE1260(M. Zeeshan Munawar)', 'ZTE1273(Zahir Shah)', 'ZTE1264(Faiza Nasir)', 'ZTE1272(Hafiz Tajammal Sultan)', 'ZTE1258(Talha Ghulam Rasool)', 'ZTE1275(Talha Najeeb)', 'ZTE1271(Hassan Shahzad)', 'ZTE1240(Asad Bashir)', 'ZTE1305(Hamza Javed Alvi)'];
+var employeesList = [ '12411(David Ray)','12412(James Chandler)','12421(Arnold James)','12422(Harry Grey)',       
+			'12531(Perry Tesla)','12532(Remond John)','12541(Silverster Blake)','12542(Jonny Joe)',        
+			'13651(Herald Jonson)','13652(Ricky Mavea)', '13661(Adam Grey)','13662(Ricky Robert)',     
+                      	'13771(Jake Robert)','13772(Kate Sandler)','13781(Billy John)']; 
 
 var officeLocationList = [];
 
