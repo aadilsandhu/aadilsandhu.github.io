@@ -11,7 +11,7 @@ var employeesList = [ '12411(David Ray)','12412(James Chandler)','12421(Arnold J
 
 var officeLocationList = [];
 
-officeLocationList[42] = "CMPAK Office, KotLakhpat";
+officeLocationList[42] = "WallStreet, Company HQ, Vegas";
 
 
 
